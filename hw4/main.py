@@ -53,7 +53,7 @@ if __name__ == '__main__':
 
     # load raw data for lm
     # uncomment the following line to run
-    # train_data, dev_data = load_data_mlp_lm()
+    train_data, dev_data = load_data_mlp_lm()
 
     # Run a single training run
     # uncomment the following line to run
@@ -61,5 +61,4 @@ if __name__ == '__main__':
 
     # Sample from the pretrained model
     # uncomment the following line to run
-    # sample_from_trained_mlp_lm(dev_data)
-
+    sample_from_trained_mlp_lm(dev_data)
